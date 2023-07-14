@@ -1,0 +1,40 @@
+{
+  "name": "@podaac/swodlr-common",
+  "version": "0.0.1",
+  "description": "A support library for SWODLR Javascript microservices containing common utilities, models, and JSON schemas",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint" : "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/podaac/swodlr-common-js.git"
+  },
+  "author": "podaac-tva <podaac-tva@jpl.nasa.gov>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/podaac/swodlr-common-js/issues"
+  },
+  "homepage": "https://github.com/podaac/swodlr-common-js#readme",
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.370.0",
+    "ajv": "^8.12.0",
+    "got": "^13.0.0",
+    "pg": "^8.11.1",
+    "sequelize": "^6.32.1",
+    "uuid": "^9.0.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
