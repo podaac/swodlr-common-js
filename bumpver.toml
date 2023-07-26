@@ -1,0 +1,17 @@
+[bumpver]
+current_version = "0.0.1"
+version_pattern = "MAJOR.MINOR.PATCH[-TAGNUM]"
+commit = true
+tag = true
+push = true
+
+[bumpver.file_patterns]
+"package.json" = [
+    '"version": "{version}"'
+]
+"package-lock.json" = [
+    '"version": "{version}"'
+]
+"bumpver.toml" = [
+    'current_version = "{version}"',
+]
