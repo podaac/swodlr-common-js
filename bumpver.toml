@@ -10,7 +10,7 @@ push = true
     '"version": "{version}"'
 ]
 "package-lock.json" = [
-    '"version": "{version}"'
+    '^  "version": "{version}",$'
 ]
 "bumpver.toml" = [
     'current_version = "{version}"',
