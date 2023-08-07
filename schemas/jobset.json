@@ -1,54 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$defs": {
-    "Job": {
-      "type": "object",
-      "properties": {
-        "product_id": {
-          "type": "string"
-        },
-        "job_id": {
-          "type": "string"
-        },
-        "job_status": {
-          "type": "string"
-        },
-        "stage": {
-          "type": "string"
-        },
-        "granules": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "errors": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "traceback": {
-          "type": "string"
-        },
-        "metadata": {
-          "type": "object"
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "product_id",
-        "job_status",
-        "stage"
-      ]
-    }
-  },
+  "$id": "swodlr-jobset",
   "type": "object",
   "properties": {
     "jobs": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/Job"
+        "$ref": "swodlr-job#"
       }
     },
     "waiting": {
