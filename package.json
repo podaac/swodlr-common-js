@@ -1,6 +1,6 @@
 {
   "name": "@podaac/swodlr-common",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A support library for SWODLR Javascript microservices containing common utilities, models, and JSON schemas",
   "main": "index.js",
   "type": "module",
