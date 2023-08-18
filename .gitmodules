@@ -1,0 +1,3 @@
+[submodule "swodlr-schemas"]
+	path = swodlr-schemas
+	url = https://github.com/podaac/swodlr-schemas.git
