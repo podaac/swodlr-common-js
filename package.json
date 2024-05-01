@@ -1,6 +1,6 @@
 {
   "name": "@podaac/swodlr-common",
-  "version": "0.0.16",
+  "version": "1.0.0-rc0",
   "description": "A support library for SWODLR Javascript microservices containing common utilities, models, and JSON schemas",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint" : "eslint ."
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
